@@ -30,5 +30,9 @@
     "eslint-config-recommended": "^4.1.0",
     "eslint-config-standard": "^17.0.0",
     "jest": "^29.1.2"
+  },
+  "dependencies": {
+    "acron": "^1.0.5",
+    "dir-glob": "^3.0.1"
   }
 }
