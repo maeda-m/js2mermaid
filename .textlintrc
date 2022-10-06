@@ -1,0 +1,19 @@
+{
+  "rules": {
+    "preset-ja-technical-writing": {
+      "sentence-length": false,
+      "no-exclamation-question-mark": false
+    },
+    "preset-jtf-style": {
+      "3.1.1.全角文字と半角文字の間": false
+    },
+    "preset-smarthr": {
+      "ja-space-between-half-and-full-width": false,
+      "sentence-length": false
+    },
+    "preset-bengo4": {
+      "3.1.1.全角文字と半角文字の間": false,
+      "sentence-length": false
+    }
+  }
+}
