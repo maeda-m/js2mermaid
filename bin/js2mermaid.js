@@ -25,10 +25,13 @@ if (option.help || !patterns.length) {
 
 const Dir = require('../lib/dir')
 const ASTNode = require('../lib/ast_node')
+const Format = require('../lib/format')
 
-const nodes = new Map()
+const traversers = []
 Dir.glob(patterns).forEach((path) => {
   debug(path)
-  const { id, node } = ASTNode.build(path)
-  nodes.set(id, node)
+  const traverser = ASTNode.buildTraverser(path)
+  traversers.push(traverser.toObject())
 })
+
+Format.render(option.format, traversers)
