@@ -31,7 +31,10 @@ const traversers = []
 Dir.glob(patterns).forEach((path) => {
   debug(path)
   const traverser = ASTNode.buildTraverser(path)
-  traversers.push(traverser.toObject())
+  traversers.push(traverser)
 })
 
-Format.render(option.format, traversers)
+const objects = traversers.map((traverser) => {
+  return traverser.toObject(traversers)
+})
+Format.render(option.format, objects)
