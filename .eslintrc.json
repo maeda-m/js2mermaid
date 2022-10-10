@@ -1,8 +1,8 @@
 {
   "env": {
-      "commonjs": true,
-      "es2021": true,
-      "node": true
+    "commonjs": true,
+    "es2021": true,
+    "node": true
   },
   "extends": [
     "eslint:recommended",
@@ -11,8 +11,14 @@
   "overrides": [
   ],
   "parserOptions": {
-      "ecmaVersion": "latest"
+    "ecmaVersion": "latest"
   },
+  "ignorePatterns": [
+    "test/setup.js",
+    "test/helper.js",
+    "test/fixtures/*.js",
+    "test/**/*.test.js"
+  ],
   "rules": {
     "arrow-body-style": ["error", "always"]
   }
