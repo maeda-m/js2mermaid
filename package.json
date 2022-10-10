@@ -7,7 +7,7 @@
     "js2mermaid": "bin/js2mermaid.js"
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --verbose",
     "eslint": "eslint bin/**/*.js lib/**/*.js --fix"
   },
   "repository": {

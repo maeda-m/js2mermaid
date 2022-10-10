@@ -1,6 +1,6 @@
 const ASTNode = require('../lib/ast_node')
 
-describe('.parse', () => {
+describe('ASTNode.parse', () => {
   it('path 内のスラッシュなどをアンダーバーに変換して id を返すこと', () => {
     const path = 'path/to/file name.js'
 
