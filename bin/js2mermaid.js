@@ -26,12 +26,13 @@ if (option.help || !patterns.length) {
 const Dir = require('../lib/dir')
 const ASTNode = require('../lib/ast_node')
 const Format = require('../lib/format')
+const Registry = require('../lib/registry')
 
-const traversers = []
+const traversers = new Registry()
 Dir.glob(patterns).forEach((path) => {
   debug(path)
   const traverser = ASTNode.buildTraverser(path)
-  traversers.push(traverser)
+  traversers.set(traverser.id, traverser)
 })
 
 const objects = traversers.map((traverser) => {
