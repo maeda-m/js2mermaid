@@ -14,13 +14,7 @@ npm install js2mermaid
 ## Usage
 
 ```sh
-js2mermaid [options] [file.js] [dir]
-```
-
-*e.g.*
-
-```sh
-js2mermaid --format class-diagram bin/js2mermaid.js lib/
+npx js2mermaid [options] file.js [dir]
 ```
 
 ### Options
@@ -37,13 +31,23 @@ js2mermaid --format class-diagram bin/js2mermaid.js lib/
 
 ### Call Graph
 
-```mermaid
+*e.g. 本リポジトリを出力した例*
+
+```sh
+npx js2mermaid --format call-graph bin/js2mermaid.js lib/
 ```
+
+![call-graph](https://user-images.githubusercontent.com/943541/195263616-4332dde0-324d-45c1-8323-22ce5a1caf0f.jpg)
 
 ### Class Diagram
 
-```mermaid
+*e.g. 本リポジトリを出力した例*
+
+```sh
+npx js2mermaid --format class-diagram bin/js2mermaid.js lib/
 ```
+
+![class-diagram](https://user-images.githubusercontent.com/943541/195263536-02a3e69f-d371-4271-bc55-86eb35444981.png)
 
 ## Run tests
 

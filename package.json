@@ -25,6 +25,9 @@
     "class diagram",
     "mermaid"
   ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "devDependencies": {
     "eslint": "^8.24.0",
     "eslint-config-recommended": "^4.1.0",
