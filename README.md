@@ -1,6 +1,6 @@
 # js2mermaid
 
-![Version](https://img.shields.io/badge/version-0.9.0-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-0.9.1-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/github/license/maeda-m/js2mermaid)](https://github.com/maeda-m/js2mermaid/blob/master/LICENSE)
 
 > js2mermaid は JavaScript におけるクラス本体とメソッド定義の呼び出しを [Mermaid.js](https://mermaid-js.github.io/mermaid/) によって可視化し、複雑（Complicated）な場合の認知負荷を軽減したいソフトウェアエンジニア向けの開発者ツールです。

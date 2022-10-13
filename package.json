@@ -1,6 +1,6 @@
 {
   "name": "js2mermaid",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Outputs JavaScript class and method definition diagrams and Call Graphs for Mermaid.js.",
   "type": "commonjs",
   "bin": {
