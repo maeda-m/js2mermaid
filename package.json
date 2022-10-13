@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "jest --verbose",
-    "eslint": "eslint bin/**/*.js lib/**/*.js --fix"
+    "eslint": "eslint ."
   },
   "repository": {
     "type": "git",
