@@ -8,13 +8,13 @@
 ## Install
 
 ```sh
-npm install js2mermaid
+npm install --save-dev js2mermaid
 ```
 
 ## Usage
 
 ```sh
-npx js2mermaid [options] file.js [dir]
+npx js2mermaid [options] file.js [file|dir]
 ```
 
 ### Options
