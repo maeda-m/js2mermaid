@@ -30,6 +30,9 @@ class SameStaticMethod {
   constructor () {
     SameStaticMethod.sameMethodName()
     SameStaticMethod.#sameMethodName()
+
+    this.sameName = new SamePrototypeMethod()
+    this.sameName.sameMethodName()
   }
   static {
     this.sameMethodName()
