@@ -2,7 +2,9 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [Unreleased](https://github.com/maeda-m/js2mermaid/compare/v0.9.1...HEAD)
+## [Unreleased](https://github.com/maeda-m/js2mermaid/compare/v0.9.2...HEAD)
+
+## [0.9.2](https://github.com/maeda-m/js2mermaid/compare/v0.9.1...v0.9.2) - 2023-04-17
 
 ### Changed
 
