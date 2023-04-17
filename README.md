@@ -8,13 +8,13 @@
 ## Install
 
 ```sh
-npm install js2mermaid
+npm install --save-dev js2mermaid
 ```
 
 ## Usage
 
 ```sh
-npx js2mermaid [options] file.js [dir]
+npx js2mermaid [options] file.js [file|dir]
 ```
 
 ### Options
@@ -37,7 +37,7 @@ npx js2mermaid [options] file.js [dir]
 npx js2mermaid --format call-graph bin/js2mermaid.js lib/
 ```
 
-![call-graph](https://user-images.githubusercontent.com/943541/195263616-4332dde0-324d-45c1-8323-22ce5a1caf0f.jpg)
+![call-graph](https://user-images.githubusercontent.com/943541/196910867-f4ece31b-2520-4a32-943f-3d47f615cac4.png)
 
 ### Class Diagram
 

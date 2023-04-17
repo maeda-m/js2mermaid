@@ -151,10 +151,31 @@ describe('ProgramTraverser#toObject', () => {
               ]
             }
           ],
-          properties: []
+          properties: [
+            {
+              name: 'sameName',
+              isStatic: false,
+              visibilityKeyword: ''
+            }
+          ]
         }
       ],
-      newers: [],
+      newers: [
+        {
+          caller: {
+            name: 'constructor',
+            isStatic: false,
+            visibilityKeyword: '',
+            params: []
+          },
+          callee: {
+            name: 'constructor',
+            isStatic: false,
+            visibilityKeyword: '',
+            params: []
+          }
+        }
+      ],
       callers: [
         {
           caller: {
